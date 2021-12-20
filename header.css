@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+
+    line-height: 1.6;
+    /*color:white;*/
+}
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+    margin: 10px 20px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 16px; 
+  font-weight: 100;
+  }
+  .dropbtn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 100;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:focus {
+  background-color: black;
+  color: white;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content 
+  a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+/*CONTAINER*/
+.container{
+    width: 100%;
+
+    margin: 0 auto;
+}
+/*HEADER*/
+
+.header{
+    padding: 25px 0;
+
+    
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid black   ;
+}
+.header__logo{
+   width: 200px;
+    position: relative;
+
+}
+/*NAV*/
+.nav{
+    text-transform: uppercase;
+    font-size: 15px; 
+    margin: 0;
+    
+    
+}
+.nav__links{
+
+    color:#000;
+    text-decoration:none;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    font-size: 18px;
+    margin: 10px 20px;
+    transition: 0.3s;
+    display: inline-block;
+}
+.nav__links:hover{
+    background-color: black;
+    color: white;
+}
+.nav,i{
+    font-size: 20px;;
+}
